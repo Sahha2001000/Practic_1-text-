@@ -1,0 +1,62 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+html{
+    box-sizing: inherit;
+}
+
+.text-block {
+    padding: 100px;
+    height: 100vh;
+    background-color: #9999FF;
+    
+}
+
+.container {
+    width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.text {
+    font-size: 25px;
+    color: #e0d8d8;
+    border: 5px solid #000;
+    padding: 50px;
+}
+
+.text__title {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.text__p1, .text__p2 {
+    text-indent: 10%;
+}
+
+.text__p1-capitalize {
+    text-transform: capitalize;
+    color: #000;
+}
+
+.text__p1-uppercase {
+    text-transform: uppercase;
+    color: #000;
+}
+
+.text__p2 {}
+
+.text__p1__word-spacing {
+    word-spacing: 10px;
+    color: #000;
+}
+
+.text__p1__letter-spacing {
+    letter-spacing: 8px;
+    color: #000;
+    white-space: nowrap;
+}
